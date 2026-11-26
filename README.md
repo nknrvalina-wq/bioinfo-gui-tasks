@@ -22,3 +22,7 @@ cd bioinfo-gui-tasks
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+
+python task1_calculator/calculator.py
+
+python task2_patients/patients_app.py
