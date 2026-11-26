@@ -18,3 +18,7 @@
 
 git clone https://github.com/nknrvalina-wq/bioinfo-gui-tasks.git
 cd bioinfo-gui-tasks
+
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
