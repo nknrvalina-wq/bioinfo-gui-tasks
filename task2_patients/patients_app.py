@@ -325,7 +325,6 @@ class PatientsApp:
         ttk.Button(btn_bar, text="+ Добавить пациента", style="Primary.TButton", command=self.add_patient).pack(side="left", padx=(0, 8))
         ttk.Button(btn_bar, text="Редактировать", style="Regular.TButton", command=self.edit_patient).pack(side="left", padx=(0, 8))
         ttk.Button(btn_bar, text="Удалить", style="Regular.TButton", command=self.delete_patient).pack(side="left", padx=(0, 8))
-        ttk.Button(btn_bar, text="Сгенерировать 5 (Faker)", style="Regular.TButton", command=self.generate_faker_patients).pack(side="left", padx=(0, 8))
         # Кнопку статистики прижимаем к правому краю (side="right")
         ttk.Button(btn_bar, text="Сводная статистика", style="Primary.TButton", command=self.show_stats).pack(side="right")
 
